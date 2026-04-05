@@ -76,13 +76,13 @@
   
 == Application Architecture
 * 3 Layer Architecture
-* User Interface Layer
-* Business Logic Layer
-* Database Layer
+** User Interface Layer
+** Business Logic Layer
+** Database Layer
 * 5 Layer Architecture
-* Business Access Layer
-* Data Access Layer
-* Tiers vs Layers
+** Business Access Layer
+** Data Access Layer
+** Tiers vs Layers
 
 == The Curriculum
 * Order of Learning
