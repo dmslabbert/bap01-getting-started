@@ -1,0 +1,9 @@
+.reveal .footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: left;
+  font-size: 0.5em; /* Adjust size as needed */
+  z-index: 100;
+}

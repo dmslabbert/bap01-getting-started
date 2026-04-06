@@ -1,1 +1,31 @@
 = Welcome
+:revealjs_theme: white
+:source-highlighter: highlight.js
+:highlightjs-theme: github
+:revealjs_controls: false
+:docinfo: shared
+:customcss: presentation.css
+
+[.columns]
+== Getting Started
+
+[.column]
+* Welcome to the course! 
+* In this course, we will cover the fundamentals of software development, starting with the basics and gradually building up to more advanced topics. 
+
+[.column]
+* We will cover a wide range of technologies and concepts, including database design.
+* This course is designed for beginners who are interested in becoming software developers. 
+
+== Order of Learning
+
+* The order of learning is important in this course. 
+* We will start with the database layer, which is the foundation of any software application. 
+* We will learn about database design, SQL, and how to interact with databases using programming languages.
+
+== Database Layer
+[%step]   
+* The database layer is the foundation of any software application. 
+* It is responsible for storing and managing data. 
+* We will also learn about SQL, which is the language used to interact with databases. 
+* Finally, we will learn how to connect to databases using programming languages, such as Java or Python.
