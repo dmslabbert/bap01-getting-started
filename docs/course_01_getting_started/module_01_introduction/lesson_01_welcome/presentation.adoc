@@ -23,9 +23,23 @@
 * We will start with the database layer, which is the foundation of any software application. 
 * We will learn about database design, SQL, and how to interact with databases using programming languages.
 
-== Database Design
+== Database Design 1
 
 image::images/test.svg[]
+
+[.columns]
+== Database Design 2
+
+[.column]
+image::images/test.svg[]
+
+[.column]
+* Tables
+* Relationships
+* Normalization
+* Indexing
+* Data Types
+* Constraints
 
 == Database Layer
 [%step]   
