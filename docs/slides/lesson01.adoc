@@ -1,12 +1,4 @@
-= Welcome
-:revealjs_theme: white
-:source-highlighter: highlight.js
-:highlightjs-theme: github
-:revealjs_controls: false
-:docinfo: shared
-:customcss: presentation.css
-:imagesdir: ..\images
-
+include::master-slide.adoc[]
 
 [.columns]
 == Getting Started
