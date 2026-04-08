@@ -5,6 +5,8 @@
 :revealjs_controls: false
 :docinfo: shared
 :customcss: presentation.css
+:imagesdir: ..\images
+
 
 [.columns]
 == Getting Started
@@ -68,13 +70,13 @@
 
 == Database Design 1
 
-image::images/test.svg[]
+image::test.svg[]
 
 [.columns]
 == Database Design 2
 
 [.column]
-image::images/test.svg[]
+image::test.svg[]
 
 [.column]
 * Tables
