@@ -1,7 +1,0 @@
-= Welcome
-:imagesdir: ..\..\images
-
-== Database Design 1
-
-image::test.svg[]
-

@@ -4,5 +4,5 @@
 :highlightjs-theme: github
 :revealjs_controls: false
 :docinfo: shared
-:customcss: presentation.css
+:customcss: master-slide.css
 :imagesdir: ..\images
