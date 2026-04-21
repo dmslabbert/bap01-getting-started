@@ -14,6 +14,18 @@ image::roadmap-horizontal-dark.png[width=800]
 * We will cover a wide range of technologies and concepts, including database design.
 * This course is designed for beginners who are interested in becoming software developers.
 
+
+== Some Code
+[source,java,linenums]
+----
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, AsciiDoc!");
+    }
+}
+----
+
+
 [.columns]
 == Three Columns
 
