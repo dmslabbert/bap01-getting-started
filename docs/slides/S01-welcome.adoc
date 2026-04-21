@@ -15,7 +15,7 @@ image::roadmap-horizontal-dark.png[width=800]
 * This course is designed for beginners who are interested in becoming software developers.
 
 
-== Some Code
+== Some Java Code
 [source,java,linenums]
 ----
 public class HelloWorld {
@@ -25,6 +25,27 @@ public class HelloWorld {
 }
 ----
 
+== Some C# Code
+[source,csharp,linenums]
+----
+using System;
+
+namespace HelloWorld
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Line {i}");
+            }
+        }
+    }
+}
+----
 
 [.columns]
 == Three Columns
