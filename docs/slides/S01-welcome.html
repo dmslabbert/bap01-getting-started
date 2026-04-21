@@ -438,6 +438,136 @@ namespace HelloWorld
         }
     }
 }</code></pre></div></div></div></section>
+<section id="_some_sql_code"><h2>Some SQL Code</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-sql hljs" data-noescape="true" data-line-numbers="" data-lang="sql">CREATE TABLE employees (
+    id          INT PRIMARY KEY AUTO_INCREMENT,
+    first_name  VARCHAR(50) NOT NULL,
+    last_name   VARCHAR(50) NOT NULL,
+    email       VARCHAR(100) UNIQUE,
+    hired_on    DATE,
+    salary      DECIMAL(10, 2)
+);
+
+INSERT INTO employees (first_name, last_name, email, hired_on, salary)
+VALUES
+    ('Alice', 'Smith',  'alice@example.com',  '2021-03-15', 75000.00),
+    ('Bob',   'Jones',  'bob@example.com',    '2022-07-01', 68000.00),
+    ('Carol', 'White',  'carol@example.com',  '2023-01-10', 82000.00);
+
+SELECT
+    e.first_name,
+    e.last_name,
+    e.salary
+FROM employees e
+WHERE e.salary &gt; 70000
+ORDER BY e.salary DESC;</code></pre></div></div></div></section>
+<section id="_some_html_code"><h2>Some HTML Code</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-html hljs" data-noescape="true" data-line-numbers="" data-lang="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;header&gt;
+        &lt;h1&gt;Welcome to My Site&lt;/h1&gt;
+        &lt;nav&gt;
+            &lt;a href="/home"&gt;Home&lt;/a&gt;
+            &lt;a href="/about"&gt;About&lt;/a&gt;
+            &lt;a href="/contact"&gt;Contact&lt;/a&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;main&gt;
+        &lt;section class="intro"&gt;
+            &lt;h2&gt;About Us&lt;/h2&gt;
+            &lt;p&gt;We build great things with simple tools.&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;ul class="features"&gt;
+            &lt;li&gt;Fast&lt;/li&gt;
+            &lt;li&gt;Reliable&lt;/li&gt;
+            &lt;li&gt;Easy to use&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/main&gt;
+
+    &lt;footer&gt;
+        &lt;p&gt;&amp;copy; 2026 My Site. All rights reserved.&lt;/p&gt;
+    &lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre></div></div></div></section>
+<section id="_some_css_code"><h2>Some CSS Code</h2><div class="slide-content"><div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-css hljs" data-noescape="true" data-line-numbers="" data-lang="css">/* Reset &amp; base */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+header nav a:hover {
+    color: #3498db;
+}
+
+/* Card component */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header nav a {
+        margin-left: 0.75rem;
+    }
+}</code></pre></div></div></div></section>
 <section id="_three_columns" class="columns"><h2>Three Columns</h2><div class="slide-content"><div class="ulist column"><ul><li><p>One</p></li><li><p>Two</p></li><li><p>Three</p></li></ul></div>
 <div class="ulist column"><ul><li><p>Four</p></li><li><p>Five</p></li><li><p>Six</p></li></ul></div>
 <div class="ulist column"><ul><li><p>Seven</p></li><li><p>Eight</p></li><li><p>Nine</p></li></ul></div></div></section>

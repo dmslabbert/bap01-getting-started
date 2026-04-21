@@ -47,6 +47,151 @@ namespace HelloWorld
 }
 ----
 
+== Some SQL Code
+[source,sql,linenums]
+----
+CREATE TABLE employees (
+    id          INT PRIMARY KEY AUTO_INCREMENT,
+    first_name  VARCHAR(50) NOT NULL,
+    last_name   VARCHAR(50) NOT NULL,
+    email       VARCHAR(100) UNIQUE,
+    hired_on    DATE,
+    salary      DECIMAL(10, 2)
+);
+
+INSERT INTO employees (first_name, last_name, email, hired_on, salary)
+VALUES
+    ('Alice', 'Smith',  'alice@example.com',  '2021-03-15', 75000.00),
+    ('Bob',   'Jones',  'bob@example.com',    '2022-07-01', 68000.00),
+    ('Carol', 'White',  'carol@example.com',  '2023-01-10', 82000.00);
+
+SELECT
+    e.first_name,
+    e.last_name,
+    e.salary
+FROM employees e
+WHERE e.salary > 70000
+ORDER BY e.salary DESC;
+----
+
+== Some HTML Code
+[source,html,linenums]
+----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Site</h1>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>About Us</h2>
+            <p>We build great things with simple tools.</p>
+        </section>
+
+        <ul class="features">
+            <li>Fast</li>
+            <li>Reliable</li>
+            <li>Easy to use</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Site. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+----
+
+== Some CSS Code
+[source,css,linenums]
+----
+/* Reset & base */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+header nav a:hover {
+    color: #3498db;
+}
+
+/* Card component */
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header nav a {
+        margin-left: 0.75rem;
+    }
+}
+----
+
 [.columns]
 == Three Columns
 
