@@ -26,8 +26,5 @@
 * FSE 13C: Server-Side Rendering for Business Systems (C#)
 * FSE 13R: Client-Side Rendering for Business Systems (React)
 
-== The Categories
-image::./assets/images/the-series.png[width=600]
-
-== The Layers
-image::./assets/images/the-layers.png[width=600]
+== Roadmap
+image::./assets/images/roadmap.png[width=600]

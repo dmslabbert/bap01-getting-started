@@ -1,0 +1,90 @@
+= The Fundamentals of Software Engineering Series
+
+This isn't just another programming course.
+
+Most courses teach you individual tools — a language here, a framework there. But when it comes time to build a real system, things don't quite fit together.
+
+This series is different.
+
+I'm going to teach you how to design and build *complete business systems* — the kind used in real companies — by understanding how each part fits into a larger architecture.
+
+---
+
+Let's take a look at the roadmap.
+
+image::assets/images/roadmap.png[width=600]
+
+This diagram represents the journey you're about to take.
+
+At the bottom, we start with the *Database Layer*.
+
+This is where your system's data lives. You'll learn how to design databases properly and then build them using technologies like PostgreSQL, MySQL, SQL Server, or SQLite. This is your foundation — everything else depends on it.
+
+---
+
+Above that is the *Data Access Layer*.
+
+This is where your application starts interacting with the database. You'll learn how to connect your backend code to your data, retrieve it, and manipulate it safely and efficiently.
+
+---
+
+Next is the *Business Logic Layer*.
+
+This is the heart of your system — where the rules live. You'll learn how to structure real backend applications using either Java or C#, and how to implement the logic that drives business processes.
+
+At this point, you'll choose your path:
+
+* Java
+* or C#
+
+Both tracks follow the same architecture, so you're learning concepts — not just syntax.
+
+---
+
+Above that is the *Application Layer*.
+
+This is where your system becomes accessible to the outside world.
+
+You'll build REST APIs — the standard way modern systems communicate — and then go further by learning how to integrate with other systems, including third-party services.
+
+This is where your application becomes part of a larger ecosystem.
+
+---
+
+At the top, we have the *User Interface Layer*.
+
+This is what users actually see and interact with.
+
+You'll first learn how to design effective business system interfaces, and then implement them using either:
+
+* server-side rendering with Java or C#
+* or client-side rendering with React
+
+This is where everything comes together into a usable system.
+
+---
+
+Running alongside all of this are what we call *cross-cutting concerns*.
+
+These include:
+
+* system architecture
+* version control with Git
+* security
+* and unit testing
+
+These aren't separate topics — they are essential practices applied across every layer of the system.
+
+---
+
+By the end of this series, you won't just know how to write code.
+
+You'll understand how to build a complete, layered business system — from the database all the way to the user interface.
+
+And more importantly, you'll understand *why* it's built that way.
+
+---
+
+So if you're ready to move beyond isolated tutorials and start thinking like a software engineer…
+
+Let's get started.
