@@ -1,7 +1,17 @@
 include::master-slide.adoc[]
 
+== IT1
+image::devops1.svg[]
+
+== IT2
+image::devops2.svg[]
+
+== IT3
+image::devops3.svg[]
+
+
 == Roadmap
-image::roadmap-horizontal-dark.png[width=800]
+image::roadmap-horizontal-light.png[width=800]
 
 [.columns]
 == Getting Started

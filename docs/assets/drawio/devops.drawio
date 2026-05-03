@@ -1,0 +1,28 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="4rWSM_FEjgEQVNmmmQjh">
+    <mxGraphModel dx="1080" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TANdroKEYFab6bLpuboD-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;textShadow=0;fontSize=16;fontFamily=Comic Sans MS;shadow=0;fillColor=none;" value="Development" vertex="1">
+          <mxGeometry height="160" width="160" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TANdroKEYFab6bLpuboD-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;textShadow=0;fontSize=16;fontFamily=Comic Sans MS;shadow=0;fillColor=none;" value="Operations" vertex="1">
+          <mxGeometry height="160" width="160" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TANdroKEYFab6bLpuboD-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;textShadow=0;fontSize=16;fontFamily=Comic Sans MS;shadow=0;fillColor=none;" value="Dev" vertex="1">
+          <mxGeometry height="160" width="160" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TANdroKEYFab6bLpuboD-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;textShadow=0;fontSize=16;fontFamily=Comic Sans MS;shadow=0;fillColor=none;" value="Ops" vertex="1">
+          <mxGeometry height="160" width="160" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TANdroKEYFab6bLpuboD-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;textShadow=0;fontSize=16;fontFamily=Comic Sans MS;shadow=0;fillColor=none;" value="Dev" vertex="1">
+          <mxGeometry height="160" width="160" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="TANdroKEYFab6bLpuboD-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;textShadow=0;fontSize=16;fontFamily=Comic Sans MS;shadow=0;fillColor=none;" value="Ops" vertex="1">
+          <mxGeometry height="160" width="160" x="160" y="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

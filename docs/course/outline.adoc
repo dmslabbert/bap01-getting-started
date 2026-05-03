@@ -7,7 +7,7 @@
 == Introduction
 
 === Welcome
-* Getting started
+* Welcome to IT
 * First in the series
 * Theory only, no coding
 * Sit back and watch
