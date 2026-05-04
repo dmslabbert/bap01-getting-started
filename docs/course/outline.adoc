@@ -2,11 +2,10 @@
 :toc: left
 :toc-title: Course Outline
 :toclevels: 2
-:sectnums:
 
-== Introduction
+== M01 - Introduction
 
-=== Welcome
+=== L01 - Welcome
 * Welcome to IT
 * First in the series
 * Theory only, no coding

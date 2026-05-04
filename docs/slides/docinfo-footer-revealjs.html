@@ -1,3 +1,15 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>
+    window.addEventListener('load', function () {
+        // Small delay to ensure Reveal has initialised
+        setTimeout(function () {
+            document.querySelectorAll('pre code').forEach(function (block) {
+                hljs.highlightElement(block);
+            });
+        }, 300);
+    });
+</script>
+
 <div id="custom-footer" class="footer">
     <hr/>
     <span>Fundamentals of Software Engineering - Course 1: Understanding Business Systems Architecture</span>

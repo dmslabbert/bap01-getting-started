@@ -1,15 +1,51 @@
-<link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github.css">
-
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/highlight.min.js"></script>
-
-<script>
-    function highlightCode() {
-        document.querySelectorAll('pre code').forEach((block) => {
-            hljs.highlightElement(block);
-        });
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/darcula.min.css">
+<style>
+    .reveal pre,
+    .reveal pre code,
+    .reveal code.hljs,
+    .reveal pre code.hljs {
+        background: #2b2b2b !important;
+        color: #a9b7c6 !important;
     }
 
-    document.addEventListener('DOMContentLoaded', highlightCode);
-    Reveal.on('slidechanged', highlightCode);
-</script>
+    /* token colours */
+    .reveal .hljs-keyword    { color: #cc7832 !important; }
+    .reveal .hljs-string     { color: #6a8759 !important; }
+    .reveal .hljs-comment    { color: #808080 !important; font-style: italic !important; }
+    .reveal .hljs-number     { color: #6897bb !important; }
+    .reveal .hljs-class      { color: #ffc66d !important; }
+    .reveal .hljs-function   { color: #ffc66d !important; }
+    .reveal .hljs-title      { color: #ffc66d !important; }
+    .reveal .hljs-type       { color: #ffc66d !important; }
+    .reveal .hljs-built_in   { color: #ffc66d !important; }
+    .reveal .hljs-literal    { color: #cc7832 !important; }
+    .reveal .hljs-variable   { color: #a9b7c6 !important; }
+    .reveal .hljs-attr       { color: #a9b7c6 !important; }
+    .reveal .hljs-params     { color: #a9b7c6 !important; }
+</style>
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+<style>
+  .reveal pre,
+  .reveal pre code,
+  .reveal code.hljs,
+  .reveal pre code.hljs {
+    background: #f6f8fa !important;
+    color: #24292e !important;
+  }
+
+  /* token colours */
+  .reveal .hljs-keyword    { color: #d73a49 !important; }
+  .reveal .hljs-string     { color: #032f62 !important; }
+  .reveal .hljs-comment    { color: #6a737d !important; font-style: italic !important; }
+  .reveal .hljs-number     { color: #005cc5 !important; }
+  .reveal .hljs-class      { color: #6f42c1 !important; }
+  .reveal .hljs-function   { color: #6f42c1 !important; }
+  .reveal .hljs-title      { color: #6f42c1 !important; }
+  .reveal .hljs-type       { color: #6f42c1 !important; }
+  .reveal .hljs-built_in   { color: #6f42c1 !important; }
+  .reveal .hljs-literal    { color: #005cc5 !important; }
+  .reveal .hljs-variable   { color: #e36209 !important; }
+  .reveal .hljs-attr       { color: #005cc5 !important; }
+  .reveal .hljs-params     { color: #24292e !important; }
+</style> -->

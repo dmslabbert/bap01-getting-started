@@ -35,6 +35,16 @@ public class HelloWorld {
 }
 ----
 
+== Some Java Code
+[source,java,linenums,highlight=3]
+----
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, AsciiDoc!");
+    }
+}
+----
+
 == Some C# Code
 [source,csharp,linenums]
 ----

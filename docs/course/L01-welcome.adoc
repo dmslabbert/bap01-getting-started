@@ -1,4 +1,18 @@
 = Welcome
 
+We all know someone working in IT.
+But what exactly does IT mean?
+IT is short for Information Technology, and we will have a lesson on what Information Technology is all about a little later in this course.
+
+For now, I want to oversimplify IT by splitting it into two departments; Development and Operations.
+
 image::../assets/images/devops1.svg[]
+
+== Development
+image::../assets/images/devops1.svg[]
+
+
+== Operations
+image::../assets/images/devops1.svg[]
+
 

@@ -1,3 +1,1 @@
-bundle exec asciidoctor-revealjs ^
-  -a revealjsdir=node_modules/reveal.js ^
-  %1
+bundle exec asciidoctor-revealjs -a revealjsdir=https://cdn.jsdelivr.net/npm/reveal.js@4.5.0 %1
