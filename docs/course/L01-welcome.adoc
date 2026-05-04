@@ -1,18 +1,58 @@
 = Welcome
 
+== The World of IT
 We all know someone working in IT.
-But what exactly does IT mean?
+But what does IT stand for?
+
 IT is short for Information Technology, and we will have a lesson on what Information Technology is all about a little later in this course.
 
-For now, I want to oversimplify IT by splitting it into two departments; Development and Operations.
+For now, I want to oversimplify things by splitting IT into two departments; Development and Operations.
 
 image::../assets/images/devops1.svg[]
 
-== Development
-image::../assets/images/devops1.svg[]
+But before we delve into each, nobody in IT is really user the terms Development and Operations. It's just called DevOps. So you are either working in Devs or Ops!
 
+image::../assets/images/devops2.svg[]
 
-== Operations
-image::../assets/images/devops1.svg[]
+Now, Devs is where you will find the programmers and system analysts to name a few.
+And Ops is where you will find the rest of the gang. They are responsible for the plumbing of the IT world.
+So, in short, the programmers develop the software applications while the Ops guys make sure there is an infrastructure to run this software on. Now this is really an oversimplification as both these worlds require specific expertise.
 
+Devs cannot operate without Ops and vice versa.
+In reality, there is a bit of overlap between Dev and Ops.
 
+image::../assets/images/devops3.svg[]
+
+== The Series
+This course is the first in a series of courses. I call this the *Fundamentals of Software Engineering* series.
+
+The series focuses 100% on the Devs side of IT.
+In addition, it focuses on teaching you how to build *Business Systems*.
+We also call these Business Applications, Information Systems, Business Information Systems, Enterprise Applications, and Enterprise Systems.
+They all refer to the same thing, but we will use the term Business Systems.
+
+Business Systems deal with supporting businesses with their day-to-day activities and decision-making processes.
+You find these types of systems anywhere you will find a business.
+Examples are Banking Systems, Point of Sale Systems, Insurance Systems, Hospital Management Systems, Pharmacy Management Systems, eCommerce Systems, and Social Media Systems to name a few.
+
+== This Course
+This course is a theory-only course, and we will do no coding here.
+
+There is a good reason for this.
+I start with the assumption that you have never written a line of code before.
+I also start with the assumption that you don't really know where to start.
+
+Once done with this specific course, you will see that I have answered the question "How do I become a programmer?"
+
+You will also see that this is not your typical answer you get when typing this question into a search engine. This is a proper answer to the question of "How do I become a programmer?"
+
+And I answer it in such a way that even if you decide to never take any of my followup courses, you will still have a proper roadmap to continue on.
+
+== The Foundation
+It is important that you get a good grasp of this course before you continue with the follow-up courses.
+Every other course in the *Fundamentals of Software Engineering* series fits into a specific space explained in this course.
+
+Now, I cannot force you to learn things in the order I suggest.
+That said, I am convinced that you will progress fastest when following my suggestions, and the whole series is created with a specific order in mind.
+
+The above will become clearer as you progress through this course.
