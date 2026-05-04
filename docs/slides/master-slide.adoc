@@ -1,7 +1,8 @@
 = Fundamentals of Software Engineering
 :revealjs_theme: white
 :source-highlighter: highlight.js
-// :highlightjs-theme: github
+:highlightjs-theme: github
+
 :revealjs_controls: false
 :docinfo: shared
 :customcss: master-slide.css
