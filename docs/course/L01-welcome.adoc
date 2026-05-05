@@ -1,32 +1,48 @@
 = Welcome
 
 == The World of IT
-We all know someone working in IT.
-But what does IT stand for?
+We all know someone who works in IT. But what exactly does IT stand for?
 
-IT is short for Information Technology, and we will have a lesson on what Information Technology is all about a little later in this course.
+IT is short for Information Technology, and we will cover Information Technology in more detail later in this course.
 
-For now, I want to oversimplify things by splitting IT into two departments; Development and Operations.
+For now, I want to simplify things by dividing IT into two broad departments: Development and Operations.
 
 image::../assets/images/devops1.svg[]
 
-But before we delve into each, nobody in IT is really user the terms Development and Operations. It's just called DevOps. So you are either working in Devs or Ops!
+Before we look at what each department does, it is important to understand that people in the industry do not usually say “Development and Operations.” Instead, we commonly use the term DevOps. So, in simple terms, you are usually working either in Dev or in Ops.
 
 image::../assets/images/devops2.svg[]
 
-Now, Devs is where you will find the programmers and system analysts to name a few.
-And Ops is where you will find the rest of the gang. They are responsible for the plumbing of the IT world.
-So, in short, the programmers develop the software applications while the Ops guys make sure there is an infrastructure to run this software on. Now this is really an oversimplification as both these worlds require specific expertise.
+The Dev side is where you will find programmers, system analysts, software testers, and other software-related roles. These are the people who design, build, test, and maintain the software applications required by the business.
 
-Devs cannot operate without Ops and vice versa.
-In reality, there is a bit of overlap between Dev and Ops.
+The Ops side is where you will find the rest of the IT team. They are responsible for the plumbing of the IT world. This includes managing the IT infrastructure, such as servers, networks, desktops, laptops, printers, and cloud systems. They also install, configure, monitor, and maintain the software running on these machines.
+
+It is important to understand that Dev and Ops are highly interdependent. They rely on each other for systems to function correctly.
+
+It is also important to note that not all businesses have both Dev and Ops departments. Sometimes a company only has an Ops team, while the software development work is outsourced to a development company. In other cases, even the Ops side is outsourced to an external IT provider.
+
+In reality, there is often some overlap between Dev and Ops responsibilities.
 
 image::../assets/images/devops3.svg[]
+
+These days, security plays a major role in the IT world. Larger companies often employ dedicated security specialists.
+
+These security teams typically focus on three areas:
+
+* IT security
+* Business security and risk
+* Legal and compliance requirements
+
+As security becomes more integrated into both development and operations, the term DevOps often evolves into DevSecOps.
+
+image::../assets/images/devsecops.svg[]
+
+ITC
 
 == The Series
 This course is the first in a series of courses. I call this the *Fundamentals of Software Engineering* series.
 
-The series focuses 100% on the Devs side of IT.
+The series focuses 100% on the Dev side of IT.
 In addition, it focuses on teaching you how to build *Business Systems*.
 We also call these Business Applications, Information Systems, Business Information Systems, Enterprise Applications, and Enterprise Systems.
 They all refer to the same thing, but we will use the term Business Systems.
